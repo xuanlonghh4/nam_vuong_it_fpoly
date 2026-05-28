@@ -33,7 +33,7 @@
             <label class="block text-[10px] font-bold uppercase text-[#00f0ff]/70 mb-2 tracking-widest">Mô Tả Ngắn</label>
             <textarea name="description" rows="3" 
                       class="w-full bg-[#0d0e15] border border-gray-700 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-[#00f0ff] focus:ring-1 focus:ring-[#00f0ff] transition-all" 
-                      placeholder="Nhập mô tả..." value="<?= $oldData['description'] ?? '' ?>"></textarea>
+                      placeholder="Nhập mô tả..."><?= $oldData['description'] ?? '' ?></textarea>
             <span class="text-rose-500 text-xs"><?= $errors['description'] ?? '' ?></span>
         </div>
 
